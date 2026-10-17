@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/EngGhaith/RLCM-Test-Passives-For-GF180MCUD
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: none
+  upstream_default_branch: main
+tapeouts:
+- org: wafer.space
+  run: ws-run2
+  slot: RLCM
+  project: 'RLCM: Test Passives For GF180MCUD'
+  size: 0p5x1
+  kind: analog (RF passives)
+  commit: d1bc20b4f854
+  commit_source: design_ref head recorded by the ws-run1/2 audit
+  tag: wafer.space/ws-run2/RLCM
+  branch: tapeout/wafer.space/ws-run2/RLCM
+  page: https://wafer.space/ws-run2/
+generated: '2026-10-17T23:33:12Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/wafer.space/ws-run2/RLCM
+- upstream/main
